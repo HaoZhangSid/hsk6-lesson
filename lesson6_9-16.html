@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第六课《快节奏和慢节奏》教案 (9-16页) - 剧本级最终版</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #343a40;
+            background-color: #f8f9fa;
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #003366;
+            color: white;
+            padding: 12px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 5px 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+
+        main {
+            padding: 90px 25px 25px 25px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #003366;
+            border-bottom: 3px solid #00509e;
+            padding-bottom: 12px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #00509e;
+            font-size: 1.5em;
+        }
+
+        h4 {
+            color: #d35400;
+            font-size: 1.2em;
+            margin-top: 25px;
+            border-left: 4px solid #f0ad4e;
+            padding-left: 10px;
+        }
+
+        .lang-block {
+            margin-bottom: 1.2em;
+            padding-left: 15px;
+            border-left: 3px solid #e9ecef;
+        }
+
+        .lang-block p {
+            margin: 0.4em 0;
+        }
+
+        .teacher-script {
+            background-color: #f0f8ff;
+            border: 1px dashed #a2cffe;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .chinese {
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .pinyin {
+            color: #6c757d;
+            font-style: italic;
+            font-size: 0.95em;
+        }
+
+        .vietnamese {
+            color: #17a2b8;
+        }
+
+        .vocab-block {
+            background-color: #eef7ff;
+            border: 1px solid #b8d8f8;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .vocab-block .vocab-title {
+            font-weight: bold;
+            color: #004085;
+            font-size: 1.1em;
+        }
+
+        .analysis-block {
+            background-color: #fffbe6;
+            border: 1px solid #ffeeba;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .analysis-block .analysis-title {
+            font-weight: bold;
+            color: #856404;
+            font-size: 1.1em;
+        }
+
+        details {
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        summary {
+            font-weight: bold;
+            color: #495057;
+            background-color: #e9ecef;
+            padding: 12px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        summary:hover {
+            background-color: #dde1e5;
+        }
+
+        details[open] summary {
+            border-radius: 4px 4px 0 0;
+        }
+
+        .transcript-content {
+            padding: 15px;
+            background-color: #fff;
+            border-top: 1px solid #ced4da;
+        }
+
+        mark {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"
+                    style="background-color: #ffc107; color: #000; padding: 5px 10px; border-radius: 5px;">🏠 返回主页</a>
+            </li>
+            <li><a href="lesson6_1-8.html"
+                    style="background-color: #6c757d; color: white; padding: 5px 10px; border-radius: 5px;">◀ 1-8页</a>
+            </li>
+            <li><a href="#page9">9: 阅读A(1)</a></li>
+            <li><a href="#page10">10: 阅读A(2)</a></li>
+            <li><a href="#page11">11: 阅读A(3)</a></li>
+            <li><a href="#page12">12: 阅读B(1)</a></li>
+            <li><a href="#page13">13: 阅读B(2)</a></li>
+            <li><a href="#page14">14: 阅读B(3)</a></li>
+            <li><a href="#page15">15: 表达(1)</a></li>
+            <li><a href="#page16">16: 表达(2)</a></li>
+            <li><a href="lesson6_17-26.html"
+                    style="background-color: #28a745; color: white; padding: 5px 10px; border-radius: 5px;">▶ 17-26页</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Part 1: Pages 1-8 (Placeholder) -->
+        <section id="page1">
+            <h2>对应PPT第 1-8 页</h2>
+            <h3>(内容同上一批次，此处为占位符)</h3>
+            <div class="teacher-script">
+                <p>为保证文件简洁，此处省略前8页的完整代码。实际生成时会包含全部内容。</p>
+            </div>
+        </section>
+
+        <!-- Part 2: Pages 9-16 (Full Content) -->
+        <section id="page9">
+            <h2>对应PPT第 9 页</h2>
+            <h3>环节名称 (Tên phần): 阅读A - 《跟“懒惰”无关》练习1 (Đọc A - Bài tập 1)</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生通过快速阅读，能抓住文章的核心事件和关键信息，完成3道选择题。</p>
+                <p class="pinyin">Xuéshēng tōngguò kuàisù yuèdú, néng zhuāzhù wénzhāng de héxīn shìjiàn hé guānjiàn
+                    xìnxī, wánchéng 3 dào xuǎnzétí.</p>
+                <p class="vietnamese">Học sinh có thể nắm bắt được sự kiện cốt lõi và thông tin quan trọng của bài văn
+                    thông qua việc đọc nhanh và hoàn thành 3 câu hỏi trắc nghiệm.</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">(1) 王丽去银行______。(A. 存钱 B. 取钱 C. 换钱)</p>
+                <p class="pinyin">(1) Wáng Lì qù yínháng ______. (A. cúnqián B. qǔqián C. huànqián)</p>
+                <p class="vietnamese">(1) Vương Lệ đến ngân hàng ______. (A. gửi tiền B. rút tiền C. đổi tiền)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(2) 在柜台上存钱，手续费是______。(A. 1欧元 B. 2欧元 C. 3欧元)</p>
+                <p class="pinyin">(2) Zài guìtái shàng cúnqián, shǒuxùfèi shì ______. (A. 1 ōuyuán B. 2 ōuyuán C. 3
+                    ōuyuán)</p>
+                <p class="vietnamese">(2) Gửi tiền tại quầy, phí thủ tục là ______. (A. 1 euro B. 2 euro C. 3 euro)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(3) 王丽最后______。(A. 在柜台上存了钱 B. 在柜员机上存了钱 C. 没存钱)</p>
+                <p class="pinyin">(3) Wáng Lì zuìhòu ______. (A. zài guìtái shàng cúnle qián B. zài guìyuánjī shàng
+                    cúnle qián C. méi cúnqián)</p>
+                <p class="vietnamese">(3) Cuối cùng Vương Lệ đã ______. (A. gửi tiền tại quầy B. gửi tiền tại máy ATM C.
+                    không gửi tiền)</p>
+            </div>
+            <h4>3. 教学步骤 (Các bước giảng dạy)</h4>
+            <div class="teacher-script">
+                <p class="chinese"><b>教师用语:</b> “我们来看一篇短文，标题叫《跟‘懒惰’无关》。‘懒惰’是什么意思？...
+                    对，就是不爱工作，不爱动。这篇文章讲了一个叫王丽的中国女孩在国外银行存钱的故事。我们来看看慢节奏的生活和‘懒惰’到底有没有关系。请你快速阅读，找出这三个问题的答案。”</p>
+                <p class="pinyin"><b>Láoshī yòngyǔ:</b> “Wǒmen lái kàn yī piān duǎnwén, biāotí jiào “Gēn ‘lǎnduò’
+                    wúguān”. ‘Lǎnduò’ shì shénme yìsi? ... Duì, jiùshì bù ài gōngzuò, bù ài dòng. Zhè piān wénzhāng
+                    jiǎngle yīgè jiào Wáng Lì de zhōngguó nǚhái zài guówài yínháng cúnqián de gùshì. Wǒmen lái kànkan
+                    màn jiézòu de shēnghuó hé ‘lǎnduò’ dàodǐ yǒuméiyǒu guānxì. Qǐng nǐ kuàisù yuèdú, zhǎochū zhè sān gè
+                    wèntí de dá'àn.”</p>
+                <p class="vietnamese"><b>Lời giáo viên:</b> "Chúng ta hãy xem một đoạn văn ngắn có tựa đề 'Không liên
+                    quan đến sự lười biếng'. '懒惰 (lười biếng)' nghĩa là gì? ... Đúng vậy, là không thích làm việc, không
+                    thích vận động. Bài văn này kể câu chuyện về một cô gái Trung Quốc tên Vương Lệ gửi tiền ở ngân hàng
+                    nước ngoài. Chúng ta hãy xem xem cuộc sống nhịp độ chậm và 'sự lười biếng' rốt cuộc có liên quan gì
+                    đến nhau không. Mời bạn đọc nhanh và tìm ra câu trả lời cho ba câu hỏi này."</p>
+            </div>
+            <div class="analysis-block">
+                <p class="analysis-title">【答案与解析】(Đáp án & Phân tích)</p>
+                <p><b>答案 (Đáp án): 1. A | 2. C | 3. B</b></p>
+                <div class="lang-block">
+                    <p class="chinese"><b>解析:</b> 请在下面的原文中找到对应的高亮部分来核对答案。</p>
+                    <p class="pinyin"><b>Jiěxī:</b> Qǐng zài xiàmiàn de yuánwén zhōng zhǎodào duìyìng de gāoliàng bùfèn
+                        lái héduì dá'àn.</p>
+                    <p class="vietnamese"><b>Phân tích:</b> Mời bạn tìm các phần được đánh dấu sáng tương ứng trong văn
+                        bản gốc dưới đây để kiểm tra đáp án.</p>
+                </div>
+            </div>
+            <details>
+                <summary>展开/收起 阅读原文《跟“懒惰”无关》</summary>
+                <div class="transcript-content">
+                    <p class="chinese">我有个中国朋友叫王丽，在国外工作。她说，那边工作节奏相当慢，人们干什么事都是慢吞吞的。不过，她在银行遇到的一件事，却不能用“懒惰”来解释。</p>
+                    <p class="pinyin">Wǒ yǒu gè zhōngguó péngyǒu jiào Wáng Lì, zài guówài gōngzuò. Tā shuō, nàbiān
+                        gōngzuò jiézòu xiāngdāng màn, rénmen gànshénme shì dōu shì màntūntūn de. Bùguò, tā zài yínháng
+                        yù dào de yī jiàn shì, què bùnéng yòng “lǎnduò” lái jiěshì.</p>
+                    <p class="vietnamese">Tôi có một người bạn Trung Quốc tên là Vương Lệ, đang làm việc ở nước ngoài.
+                        Cô ấy nói, nhịp độ công việc ở đó khá chậm, mọi người làm gì cũng từ từ. Tuy nhiên, một chuyện
+                        cô ấy gặp ở ngân hàng lại không thể giải thích bằng sự "lười biếng".</p>
+                    <p class="chinese">
+                        那天，<mark>王丽去银行存钱</mark>。她看到用柜员机存钱手续费是1欧元，<mark>在柜台上存钱手续费是3欧元</mark>。王丽没试过用柜员机存钱，为避免失误，她宁可多交2欧元，也要在柜台存。
+                    </p>
+                    <p class="pinyin">Nèitiān, <mark>Wáng Lì qù yínháng cúnqián</mark>. Tā kàn dào yòng guìyuánjī
+                        cúnqián shǒuxùfèi shì 1 ōuyuán, <mark>zài guìtái shàng cúnqián shǒuxùfèi shì 3 ōuyuán</mark>.
+                        Wáng Lì méi shìguò yòng guìyuánjī cúnqián, wèi bìmiǎn shīwù, tā nìngkě duō jiāo 2 ōuyuán, yě yào
+                        zài guìtái cún.</p>
+                    <p class="vietnamese">Hôm đó, <mark>Vương Lệ đến ngân hàng gửi tiền</mark>. Cô ấy thấy phí thủ tục
+                        gửi tiền bằng máy ATM là 1 euro, còn <mark>phí gửi tiền tại quầy là 3 euro</mark>. Vương Lệ chưa
+                        từng thử gửi tiền bằng máy ATM, để tránh sai sót, cô ấy thà trả thêm 2 euro để gửi tiền tại
+                        quầy.</p>
+                    <p class="chinese">可坐在柜台里面的银行职员却微笑着问她：“您以前用柜员机存过钱吗？”“没有。”“那您为什么不去试一试呢？是不是非要在柜台存不可？”</p>
+                    <p class="pinyin">Kě zuò zài guìtái lǐmiàn de yínháng zhíyuán què wéixiàozhe wèn tā: “Nín yǐqián
+                        yòng guìyuánjī cúnguò qián ma?” “Méiyǒu.” “Nà nín wèishéme bù qù shì yī shì ne? Shì bùshì fēi
+                        yào zài guìtái cún bùkě?”</p>
+                    <p class="vietnamese">Nhưng nhân viên ngân hàng ngồi trong quầy lại mỉm cười hỏi cô: "Trước đây bà
+                        đã từng gửi tiền bằng máy ATM chưa ạ?" "Chưa." "Vậy tại sao bà không thử một lần xem sao? Có
+                        phải là nhất thiết phải gửi tại quầy không ạ?"</p>
+                    <p class="chinese">
+                        这位职员耐心地教王丽怎么使用柜员机，看她学会了，才放心地让她自己操作。<mark>王丽最后在柜员机上顺利地存了钱</mark>，节省了2欧元。她说，这件事让她感到很温暖。</p>
+                    <p class="pinyin">Zhè wèi zhíyuán nàixīn de jiāo Wáng Lì zěnmeyàng shǐyòng guìyuánjī, kàn tā xuéhuì
+                        le, cái fàngxīn de ràng tā zìjǐ cāozuò. <mark>Wáng Lì zuìhòu zài guìyuánjī shàng shùnlì de cúnle
+                            qián</mark>, jiéshěngle 2 ōuyuán. Tā shuō, zhè jiàn shì ràng tā gǎndào hěn wēnnuǎn.</p>
+                    <p class="vietnamese">Nhân viên này đã kiên nhẫn chỉ cho Vương Lệ cách sử dụng máy ATM, thấy cô đã
+                        học được rồi mới yên tâm để cô tự thao tác. <mark>Cuối cùng Vương Lệ đã gửi tiền thành công tại
+                            máy ATM</mark>, tiết kiệm được 2 euro. Cô ấy nói, chuyện này khiến cô cảm thấy rất ấm lòng.
+                    </p>
+                </div>
+            </details>
+        </section>
+        <section id="page10">
+            <h2>对应PPT第 10 页</h2>
+            <h3>环节名称 (Tên phần): 阅读A - 练习2 (Đọc A - Bài tập 2)</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生通过精读文章，能够准确理解并填写关键词，掌握“慢吞吞”、“宁可”、“避免”、“非...不可”等用法。</p>
+                <p class="pinyin">Xuéshēng tōngguò jīngdú wénzhāng, nénggòu zhǔnquè lǐjiě bìng tiánxiě guānjiàn cí,
+                    zhǎngwò “màntūntūn”, “nìngkě”, “bìmiǎn”, “fēi...bùkě” děng yòngfǎ.</p>
+                <p class="vietnamese">Thông qua việc đọc kỹ bài văn, học sinh có thể hiểu và điền chính xác các từ khóa,
+                    nắm vững cách sử dụng của các cụm từ như "慢吞吞", "宁可", "避免", "非...不可".</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">(1) 那边工作节奏相当慢，人们干什么事都是______的。(慢吞吞)</p>
+                <p class="pinyin">(1) Nàbiān gōngzuò jiézòu xiāngdāng màn, rénmen gànshénme shì dōu shì ______ de.
+                    (màntūntūn)</p>
+                <p class="vietnamese">(1) Nhịp độ công việc ở đó khá chậm, mọi người làm gì cũng ______. (chậm rì rì)
+                </p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(2) 不过王丽在银行遇到的一件事，______不能用“懒惰”来______。(却, 解释)</p>
+                <p class="pinyin">(2) Bùguò Wáng Lì zài yínháng yù dào de yī jiàn shì, ______ bùnéng yòng “lǎnduò” lái
+                    ______. (què, jiěshì)</p>
+                <p class="vietnamese">(2) Nhưng một chuyện Vương Lệ gặp ở ngân hàng ______ không thể dùng "sự lười
+                    biếng" để ______. (lại, giải thích)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(3) 王丽没试过用柜员机存钱，为______失误，她______多交2欧元。(避免, 宁可)</p>
+                <p class="pinyin">(3) Wáng Lì méi shìguò yòng guìyuánjī cúnqián, wèi ______ shīwù, tā ______ duō jiāo 2
+                    ōuyuán. (bìmiǎn, nìngkě)</p>
+                <p class="vietnamese">(3) Vương Lệ chưa từng thử gửi tiền bằng máy ATM, để ______ sai sót, cô ấy ______
+                    trả thêm 2 euro. (tránh, thà)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(4) 坐在柜台里面的银行职员问她：“是不是______要在柜台存______？”(非, 不可)</p>
+                <p class="pinyin">(4) Zuò zài guìtái lǐmiàn de yínháng zhíyuán wèn tā: “Shì bùshì ______ yào zài guìtái
+                    cún ______?” (fēi, bùkě)</p>
+                <p class="vietnamese">(4) Nhân viên ngân hàng ngồi trong quầy hỏi cô: "Có phải là ______ phải gửi tiền
+                    tại quầy ______?" (nhất thiết, hay sao)</p>
+            </div>
+            <h4>3. 教学步骤 (Các bước giảng dạy)</h4>
+            <div class="teacher-script">
+                <p class="chinese"><b>教师用语:</b> “我们再来仔细读一遍。这次请你把文章里最合适的词语填到空中。注意，这些词语和句式都非常有用。”</p>
+                <p class="pinyin"><b>Láoshī yòngyǔ:</b> “Wǒmen zàilái zǐxì dú yībiàn. Zhè cì qǐng nǐ bǎ wénzhāng lǐ zuì
+                    héshì de cíyǔ tián dào kōngzhōng. Zhùyì, zhèxiē cíyǔ hé jùshì dōu fēicháng yǒuyòng.”</p>
+                <p class="vietnamese"><b>Lời giáo viên:</b> "Chúng ta hãy đọc kỹ lại một lần nữa. Lần này mời bạn điền
+                    những từ thích hợp nhất trong bài vào chỗ trống. Chú ý, những từ và mẫu câu này đều rất hữu ích."
+                </p>
+            </div>
+            <div class="vocab-block">
+                <p class="vocab-title">【词汇与句式讲解】(Giải thích từ vựng & mẫu câu)</p>
+                <p><b>词语:</b> 宁可 (nìngkě) - <b>越南语:</b> thà, thà rằng</p>
+                <p class="lang-block"><span class="chinese"><b>解释:</b>
+                        表示经过比较后，选择其中一种。常常和“也”一起用，“宁可A，也要B”，意思是即使A不好，但为了实现B，还是选择A。</span><br><span
+                        class="pinyin"><b>Jiěshì:</b> Biǎoshì jīngguò bǐjiào hòu, xuǎnzé qízhōng yīzhǒng. Chángcháng hé
+                        “yě” yīqǐ yòng, “nìngkě A, yě yào B”, yìsi shì jíshǐ A bù hǎo, dàn wèile shíxiàn B, háishì
+                        xuǎnzé A.</span><br><span class="vietnamese"><b>Giải thích:</b> Biểu thị sự lựa chọn sau khi so
+                        sánh. Thường dùng cùng với "也", "宁可 A, 也要 B" có nghĩa là dù A không tốt, nhưng để thực hiện B,
+                        vẫn chọn A.</span></p>
+                <p class="lang-block"><span class="chinese"><b>例句:</b> 我宁可自己辛苦一点儿，也要让家人过上好生活。</span><br><span
+                        class="pinyin"><b>Lìjù:</b> Wǒ nìngkě zìjǐ xīnkǔ yīdiǎnr, yě yào ràng jiārén guò shàng hǎo
+                        shēnghuó.</span><br><span class="vietnamese"><b>Ví dụ:</b> Tôi thà vất vả một chút, cũng muốn để
+                        gia đình có cuộc sống tốt đẹp.</span></p>
+                <p style="margin-top:20px;"><b>句式:</b> 非...不可 (fēi...bùkě)</p>
+                <p class="lang-block"><span class="chinese"><b>解释:</b>
+                        表示“必须”、“一定”，有强调的意思，说明除了这样做，没有别的选择。</span><br><span class="pinyin"><b>Jiěshì:</b> Biǎoshì “bìxū”,
+                        “yīdìng”, yǒu qiángdiào de yìsi, shuōmíng chúle zhèyàng zuò, méiyǒu bié de
+                        xuǎnzé.</span><br><span class="vietnamese"><b>Giải thích:</b> Biểu thị "phải", "nhất định", có ý
+                        nhấn mạnh, cho thấy ngoài cách làm này ra không có lựa chọn nào khác.</span></p>
+                <p class="lang-block"><span class="chinese"><b>例句:</b> 这个任务很重要，你非去不可。</span><br><span
+                        class="pinyin"><b>Lìjù:</b> Zhège rènwù hěn zhòngyào, nǐ fēi qù bùkě.</span><br><span
+                        class="vietnamese"><b>Ví dụ:</b> Nhiệm vụ này rất quan trọng, bạn nhất thiết phải đi.</span></p>
+            </div>
+        </section>
+        <section id="page11">
+            <h2>对应PPT第 11 页</h2>
+            <h3>环节名称 (Tên phần): 阅读A - 练习3 (Đọc A - Bài tập 3)</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生能运用文中的重点词语和句式，根据问题进行转述和回答。</p>
+                <p class="pinyin">Xuéshēng néng yùnyòng wénzhōng de zhòngdiǎn cíyǔ hé jùshì, gēnjù wèntí jìnxíng
+                    zhuǎnshù hé huídá.</p>
+                <p class="vietnamese">Học sinh có thể sử dụng các từ và mẫu câu chính trong bài để diễn đạt lại và trả
+                    lời câu hỏi.</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">(1) 在柜台存钱和在柜员机上存钱有什么不同？(用“手续费多交”)</p>
+                <p class="pinyin">(1) Zài guìtái cúnqián hé zài guìyuánjī shàng cúnqián yǒu shénme bùtóng? (yòng
+                    “shǒuxùfèi duō jiāo”)</p>
+                <p class="vietnamese">(1) Gửi tiền tại quầy và gửi tiền tại máy ATM có gì khác nhau? (dùng "手续费多交")</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(2) 王丽为什么到柜台上去存钱？(用“避免”)</p>
+                <p class="pinyin">(2) Wáng Lì wèishéme dào guìtái shàng qù cúnqián? (yòng “bìmiǎn”)</p>
+                <p class="vietnamese">(2) Tại sao Vương Lệ lại đến quầy để gửi tiền? (dùng "避免")</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(3) 你觉得这位银行职员怎么样？(用“耐心”)</p>
+                <p class="pinyin">(3) Nǐ juédé zhè wèi yínháng zhíyuán zěnme yàng? (yòng “nàixīn”)</p>
+                <p class="vietnamese">(3) Bạn thấy nhân viên ngân hàng này thế nào? (dùng "耐心")</p>
+            </div>
+            <h4>3. 教学步骤 (Các bước giảng dạy)</h4>
+            <div class="teacher-script">
+                <p class="chinese"><b>教师用语:</b> “这个练习帮助我们复习文章内容和重点句式。请你用括号里指定的词来回答问题。”</p>
+                <p class="pinyin"><b>Láoshī yòngyǔ:</b> “Zhège liànxí bāngzhù wǒmen fùxí wénzhāng nèiróng hé zhòngdiǎn
+                    jùshì. Qǐng nǐ yòng kuòhàolǐ zhǐdìng de cí lái huídá wèntí.”</p>
+                <p class="vietnamese"><b>Lời giáo viên:</b> "Bài tập này giúp chúng ta ôn lại nội dung bài và các mẫu
+                    câu trọng điểm. Mời bạn dùng từ được chỉ định trong ngoặc để trả lời câu hỏi."</p>
+            </div>
+            <div class="analysis-block">
+                <p class="analysis-title">【参考答案】(Đáp án tham khảo)</p>
+                <p class="lang-block"><span class="chinese"><b>(1)</b> 在柜台存钱比在柜员机上存钱的<b>手续费多交</b>2欧元。</span><br><span
+                        class="pinyin"><b>(1)</b> Zài guìtái cúnqián bǐ zài guìyuánjī shàng cúnqián de <b>shǒuxùfèi duō
+                            jiāo</b> 2 ōuyuán.</span><br><span class="vietnamese"><b>(1)</b> Gửi tiền tại quầy <b>phí
+                            thủ tục phải trả nhiều hơn</b> 2 euro so với gửi tiền tại máy ATM.</span></p>
+                <p class="lang-block"><span class="chinese"><b>(2)</b> 她到柜台存钱是为了<b>避免</b>失误。</span><br><span
+                        class="pinyin"><b>(2)</b> Tā dào guìtái cúnqián shì wèile <b>bìmiǎn</b> shīwù.</span><br><span
+                        class="vietnamese"><b>(2)</b> Cô ấy đến quầy gửi tiền là để <b>tránh</b> sai sót.</span></p>
+                <p class="lang-block"><span class="chinese"><b>(3)</b> 我觉得这位银行职员很有<b>耐心</b>。</span><br><span
+                        class="pinyin"><b>(3)</b> Wǒ juédé zhè wèi yínháng zhíyuán hěn yǒu
+                        <b>nàixīn</b>.</span><br><span class="vietnamese"><b>(3)</b> Tôi thấy nhân viên ngân hàng này
+                        rất <b>kiên nhẫn</b>.</span></p>
+            </div>
+        </section>
+        <section id="page12">
+            <h2>对应PPT第 12 页</h2>
+            <h3>环节名称 (Tên phần): 阅读B - 《快节奏里的“慢生活”》练习1</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生通过快速阅读，能抓住文章主旨和关键态度，完成选择题。</p>
+                <p class="pinyin">Xuéshēng tōngguò kuàisù yuèdú, néng zhuāzhù wénzhāng zhǔzhǐ hé guānjiàn tàidù,
+                    wánchéng xuǎnzétí.</p>
+                <p class="vietnamese">Thông qua việc đọc nhanh, học sinh có thể nắm bắt được ý chính và thái độ quan
+                    trọng của bài văn để hoàn thành các câu hỏi trắc nghiệm.</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">(1) 高铁是______的象征。(A. 快节奏 B. 慢生活 C. 紧张工作)</p>
+                <p class="pinyin">(1) Gāotiě shì ______ de xiàngzhēng. (A. kuài jiézòu B. màn shēnghuó C. jǐnzhāng
+                    gōngzuò)</p>
+                <p class="vietnamese">(1) Tàu cao tốc là biểu tượng của ______. (A. nhịp độ nhanh B. cuộc sống chậm C.
+                    công việc căng thẳng)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(2) 这座城市的人们，生活节奏______。(A. 比以前更快了 B. 比以前慢了 C. 跟以前一样快)</p>
+                <p class="pinyin">(2) Zhè zuò chéngshì de rénmen, shēnghuó jiézòu ______. (A. bǐ yǐqián gèng kuàile B.
+                    bǐ yǐqián mànle C. gēn yǐqián yīyàng kuài)</p>
+                <p class="vietnamese">(2) Nhịp sống của người dân thành phố này ______. (A. nhanh hơn trước B. chậm hơn
+                    trước C. nhanh như trước)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(3) 这座城市的人们______。(A. 不重视生活质量 B. 更重视生活质量了 C. 生活质量越来越差了)</p>
+                <p class="pinyin">(3) Zhè zuò chéngshì de rénmen ______. (A. bù zhòngshì shēnghuó zhìliàng B. gèng
+                    zhòngshì shēnghuó zhìliàng le C. shēnghuó zhìliàng yuè lái yuè chàle)</p>
+                <p class="vietnamese">(3) Người dân thành phố này ______. (A. không coi trọng chất lượng cuộc sống B. đã
+                    coi trọng chất lượng cuộc sống hơn C. chất lượng cuộc sống ngày càng kém đi)</p>
+            </div>
+            <h4>3. 教学步骤 (Các bước giảng dạy)</h4>
+            <div class="teacher-script">
+                <p class="chinese"><b>教师用语:</b>
+                    “我们刚刚讨论了慢节奏，现在来看看快节奏。这篇文章的题目是《快节奏里的“慢生活”》，很有意思，对吗？它好像在说两种相反的东西。我们来快速读一下，看看作者是怎么说的。”</p>
+                <p class="pinyin"><b>Láoshī yòngyǔ:</b> “Wǒmen gānggāng tǎolùnle màn jiézòu, xiànzài lái kànkan kuài
+                    jiézòu. Zhè piān wénzhāng de tímù shì “Kuài jiézòu lǐ de ‘màn shēnghuó’”, hěn yǒuyìsi, duì ma? Tā
+                    hǎoxiàng zài shuō liǎng zhǒng xiāngfǎn de dōngxī. Wǒmen lái kuàisù dú yīxià, kànkan zuòzhě shì zěnme
+                    shuō de.”</p>
+                <p class="vietnamese"><b>Lời giáo viên:</b> "Chúng ta vừa thảo luận về nhịp độ chậm, bây giờ hãy xem
+                    nhịp độ nhanh. Tựa đề của bài văn này là 'Cuộc sống chậm trong nhịp độ nhanh', rất thú vị phải
+                    không? Nó dường như đang nói về hai thứ đối lập nhau. Chúng ta hãy đọc nhanh xem tác giả nói gì."
+                </p>
+            </div>
+            <div class="analysis-block">
+                <p class="analysis-title">【答案与解析】(Đáp án & Phân tích)</p>
+                <p><b>答案 (Đáp án): 1. A | 2. A | 3. B</b></p>
+            </div>
+            <details>
+                <summary>展开/收起 阅读原文《快节奏里的“慢生活”》</summary>
+                <div class="transcript-content">
+                    <p class="chinese">
+                        我所在的这座城市，<mark>生活节奏比以前更快了</mark>。我觉得，<mark>高铁大概可以算是“中国速度”的象征</mark>。中国城市的发展非常快，三年一小变，五年一大变，经过十年可能根本就认不出了。说“日新月异”，一点儿都不夸张。
+                    </p>
+                    <p class="pinyin">Wǒ suǒzài de zhè zuò chéngshì, <mark>shēnghuó jiézòu bǐ yǐqián gèng kuàile</mark>.
+                        Wǒ juédé, <mark>gāotiě dàgài kěyǐ suànshì “zhōngguó sùdù” de xiàngzhēng</mark>. Zhōngguó
+                        chéngshì de fǎ zhǎn fēicháng kuài, sān nián yī xiǎo biàn, wǔ nián yī dà biàn, jīngguò shí nián
+                        kěnéng gēnběn jiù rèn bù chūle. Shuō “rìxīnyuèyì”, yīdiǎnr dōu bù kuāzhāng.</p>
+                    <p class="vietnamese">Thành phố nơi tôi ở, <mark>nhịp sống đã nhanh hơn trước đây</mark>. Tôi nghĩ,
+                        <mark>tàu cao tốc có lẽ có thể được coi là biểu tượng của "tốc độ Trung Quốc"</mark>. Các thành
+                        phố của Trung Quốc phát triển rất nhanh, ba năm thay đổi nhỏ, năm năm thay đổi lớn, sau mười năm
+                        có thể hoàn toàn không nhận ra nữa. Nói là "thay đổi từng ngày", không hề khoa trương chút nào.
+                    </p>
+                    <p class="chinese">
+                        不过，快节奏的城市里，人们的生活态度也在发生变化，<mark>他们也很重视休闲生活，很会享受“慢生活”</mark>。晚上总是有很多人在湖边跳舞，饭馆、茶馆、咖啡馆里总是坐满了人。每到周末，人们喜欢出门爬爬山，喝喝茶，放松放松。
+                    </p>
+                    <p class="pinyin">Bùguò, kuài jiézòu de chéngshì lǐ, rénmen de shēnghuó tàidù yě zài fāshēng
+                        biànhuà, <mark>tāmen yě hěn zhòngshì xiūxián shēnghuó, hěn huì xiǎngshòu “màn shēnghuó”</mark>.
+                        Wǎnshàng zǒng shì yǒu hěnduō rén zài hú biān tiàowǔ, fànguǎn, cháguǎn, kāfēi guǎn lǐ zǒng shì
+                        zuò mǎnle rén. Měi dào zhōumò, rénmen xǐhuān chūmén pá páshān, hē hē chá, fàngsōng fàngsōng.</p>
+                    <p class="vietnamese">Tuy nhiên, trong thành phố có nhịp sống nhanh, thái độ sống của mọi người cũng
+                        đang thay đổi, <mark>họ cũng rất coi trọng cuộc sống giải trí, rất biết cách tận hưởng "cuộc
+                            sống chậm"</mark>. Buổi tối luôn có rất nhiều người nhảy múa bên hồ, các nhà hàng, quán trà,
+                        quán cà phê luôn đông nghịt người. Mỗi cuối tuần, mọi người thích ra ngoài leo núi, uống trà,
+                        thư giãn.</p>
+                </div>
+            </details>
+        </section>
+        <section id="page13">
+            <h2>对应PPT第 13 页</h2>
+            <h3>环节名称 (Tên phần): 阅读B - 练习2 (Đọc B - Bài tập 2)</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生通过精读，能准确理解并填写文章中的关键词和成语。</p>
+                <p class="pinyin">Xuéshēng tōngguò jīngdú, néng zhǔnquè lǐjiě bìng tiánxiě wénzhāng zhōng de guānjiàn cí
+                    hé chéngyǔ.</p>
+                <p class="vietnamese">Thông qua việc đọc kỹ, học sinh có thể hiểu và điền chính xác các từ khóa và thành
+                    ngữ trong bài văn.</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">(1) 我觉得，高铁大概可以算是“中国速度”的______。(象征)</p>
+                <p class="pinyin">(1) Wǒ juédé, gāotiě dàgài kěyǐ suànshì “zhōngguó sùdù” de ______. (xiàngzhēng)</p>
+                <p class="vietnamese">(1) Tôi nghĩ, tàu cao tốc có lẽ có thể được coi là ______ của "tốc độ Trung Quốc".
+                    (biểu tượng)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(2) 中国城市的发展非常快...说“______”，一点儿都不夸张。(日新月异)</p>
+                <p class="pinyin">(2) Zhōngguó chéngshì de fǎ zhǎn fēicháng kuài...shuō “______”, yīdiǎnr dōu bù
+                    kuāzhāng. (rìxīnyuèyì)</p>
+                <p class="vietnamese">(2) Các thành phố của Trung Quốc phát triển rất nhanh... nói là "______", không hề
+                    khoa trương chút nào. (thay đổi từng ngày)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(3) ...饭馆、茶馆、咖啡馆里总是______了人。(坐满)</p>
+                <p class="pinyin">(3) ...fànguǎn, cháguǎn, kāfēi guǎn lǐ zǒng shì ______le rén. (zuò mǎn)</p>
+                <p class="vietnamese">(3) ...trong các nhà hàng, quán trà, quán cà phê luôn ______ người. (ngồi kín)</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(4) 其实他们也很重视______生活，很会______“慢生活”。(休闲, 享受)</p>
+                <p class="pinyin">(4) Qíshí tāmen yě hěn zhòngshì ______ shēnghuó, hěn huì ______ “màn shēnghuó”.
+                    (xiūxián, xiǎngshòu)</p>
+                <p class="vietnamese">(4) Thực ra họ cũng rất coi trọng cuộc sống ______, rất biết ______ "cuộc sống
+                    chậm". (giải trí, tận hưởng)</p>
+            </div>
+            <h4>3. 教学步骤 (Các bước giảng dạy)</h4>
+            <div class="vocab-block">
+                <p class="vocab-title">【词汇讲解】(Giải thích từ vựng)</p>
+                <p><b>成语:</b> 日新月异 (rìxīnyuèyì) - <b>越南语:</b> thay đổi từng ngày</p>
+                <p class="lang-block"><span class="chinese"><b>解释:</b> 形容发展、变化的速度特别快，每天每月都有新的样子。</span><br><span
+                        class="pinyin"><b>Jiěshì:</b> Xíngróng fāzhǎn, biànhuà de sùdù tèbié kuài, měitiān měi yuè dōu
+                        yǒu xīn de yàngzi.</span><br><span class="vietnamese"><b>Giải thích:</b> Miêu tả tốc độ phát
+                        triển, thay đổi đặc biệt nhanh, mỗi ngày mỗi tháng đều có diện mạo mới.</span></p>
+                <p class="lang-block"><span class="chinese"><b>例句:</b> 这几年，中国的科技发展真是日新月异。</span><br><span
+                        class="pinyin"><b>Lìjù:</b> Zhè jǐ nián, zhōngguó de kējì fāzhǎn zhēnshi
+                        rìxīnyuèyì.</span><br><span class="vietnamese"><b>Ví dụ:</b> Mấy năm nay, sự phát triển khoa học
+                        công nghệ của Trung Quốc thật sự là thay đổi từng ngày.</span></p>
+            </div>
+        </section>
+        <section id="page14">
+            <h2>对应PPT第 14 页</h2>
+            <h3>环节名称 (Tên phần): 阅读B - 练习3 (Đọc B - Bài tập 3)</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生能运用指定词语和句式，总结和复述阅读内容。</p>
+                <p class="pinyin">Xuéshēng néng yùnyòng zhǐdìng cíyǔ hé jùshì, zǒngjié hé fùshù yuèdú nèiróng.</p>
+                <p class="vietnamese">Học sinh có thể sử dụng các từ và mẫu câu được chỉ định để tóm tắt và thuật lại
+                    nội dung đã đọc.</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">(1) 中国城市的发展速度怎么样？(用“日新月异”)</p>
+                <p class="pinyin">(1) Zhōngguó chéngshì de fāzhǎn sùdù zěnme yàng? (yòng “rìxīnyuèyì”)</p>
+                <p class="vietnamese">(1) Tốc độ phát triển của các thành phố Trung Quốc như thế nào? (dùng "日新月异")</p>
+            </div>
+            <div class="lang-block">
+                <p class="chinese">(2) 这座城市的人有哪些休闲方式？(用“总是”、“每到”)</p>
+                <p class="pinyin">(2) Zhè zuò chéngshì de rén yǒu nǎxiē xiūxián fāngshì? (yòng “zǒng shì”, “měi dào”)
+                </p>
+                <p class="vietnamese">(2) Người dân thành phố này có những hình thức giải trí nào? (dùng "总是", "每到")</p>
+            </div>
+            <div class="analysis-block">
+                <p class="analysis-title">【参考答案】(Đáp án tham khảo)</p>
+                <p class="lang-block"><span class="chinese"><b>(1)</b> 可以用“日新月异”来形容中国城市的发展速度。</span><br><span
+                        class="pinyin"><b>(1)</b> Kěyǐ yòng “rìxīnyuèyì” lái xíngróng zhōngguó chéngshì de fāzhǎn
+                        sùdù.</span><br><span class="vietnamese"><b>(1)</b> Có thể dùng "thay đổi từng ngày" để miêu tả
+                        tốc độ phát triển của các thành phố Trung Quốc.</span></p>
+                <p class="lang-block"><span class="chinese"><b>(2)</b>
+                        晚上<b>总是</b>有很多人在湖边跳舞，饭馆、茶馆、咖啡馆里<b>总是</b>坐满了人。<b>每到</b>周末，人们喜欢出门爬爬山，喝喝茶，放松放松。</span><br><span
+                        class="pinyin"><b>(2)</b> Wǎnshàng <b>zǒng shì</b> yǒu hěnduō rén zài hú biān tiàowǔ, fànguǎn,
+                        cháguǎn, kāfēi guǎn lǐ <b>zǒng shì</b> zuò mǎnle rén. <b>Měi dào</b> zhōumò, rénmen xǐhuān
+                        chūmén pá páshān, hē hē chá, fàngsōng fàngsōng.</span><br><span class="vietnamese"><b>(2)</b>
+                        Buổi tối <b>luôn luôn</b> có rất nhiều người nhảy múa bên hồ, các nhà hàng, quán trà, quán cà
+                        phê <b>luôn luôn</b> đông nghịt người. <b>Mỗi khi</b> đến cuối tuần, mọi người thích ra ngoài
+                        leo núi, uống trà, thư giãn.</span></p>
+            </div>
+        </section>
+        <section id="page15">
+            <h2>对应PPT第 15 页</h2>
+            <h3>环节名称 (Tên phần): 表达活动 1 (Hoạt động diễn đạt 1)</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生能够运用本课所学的核心词汇，就“生活节奏”这一话题进行观点阐述。</p>
+                <p class="pinyin">Xuéshēng nénggòu yùnyòng běn kè suǒ xué de héxīn cíhuì, jiù “shēnghuó jiézòu” zhè yī
+                    huàtí jìnxíng guāndiǎn chǎnshù.</p>
+                <p class="vietnamese">Học sinh có thể sử dụng các từ vựng cốt lõi đã học trong bài để trình bày quan
+                    điểm về chủ đề "nhịp sống".</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">词汇提示：快/慢节奏, 发展速度, 生活质量, 休闲生活, 懒惰, 认真, 享受</p>
+                <p class="pinyin">Cíhuì tíshì: kuài/màn jiézòu, fāzhǎn sùdù, shēnghuó zhìliàng, xiūxián shēnghuó,
+                    lǎnduò, rènzhēn, xiǎngshòu</p>
+                <p class="vietnamese">Gợi ý từ vựng: nhịp độ nhanh/chậm, tốc độ phát triển, chất lượng cuộc sống, cuộc
+                    sống giải trí, lười biếng, nghiêm túc, tận hưởng</p>
+            </div>
+            <h4>3. 教学步骤 (Các bước giảng dạy)</h4>
+            <div class="teacher-script">
+                <p class="chinese"><b>教师用语:</b> “学完了所有的课文，我们来聊一聊。请你看右边的这些词，用它们来组织一下你的想法，然后告诉我，你更喜欢快节奏的生活，还是慢节奏的生活？为什么？”
+                </p>
+                <p class="pinyin"><b>Láoshī yòngyǔ:</b> “Xué wánle suǒyǒu de kèwén, wǒmen lái liáo yī liáo. Qǐng nǐ kàn
+                    yòubiān de zhèxiē cí, yòng tāmen lái zǔzhī yīxià nǐ de xiǎngfǎ, ránhòu gàosù wǒ, nǐ gèng xǐhuān kuài
+                    jiézòu de shēnghuó, háishì màn jiézòu de shēnghuó? Wèishéme?”</p>
+                <p class="vietnamese"><b>Lời giáo viên:</b> "Sau khi đã học xong tất cả các bài đọc, chúng ta hãy cùng
+                    trò chuyện. Mời bạn nhìn những từ bên phải, dùng chúng để sắp xếp suy nghĩ của bạn, sau đó cho tôi
+                    biết, bạn thích cuộc sống nhịp độ nhanh hơn, hay nhịp độ chậm hơn? Tại sao?"</p>
+            </div>
+            <div class="teacher-script">
+                <p class="chinese"><b>教师用语 (示范):</b> “比如，你可以说：‘我喜欢快节奏，因为我喜欢很快的发展速度。虽然很忙，没有太多休闲生活，但我觉得很充实。’ 或者
+                    ‘我喜欢慢节奏，因为我更重视生活质量，我喜欢慢慢地享受生活。’ 请你准备一下，然后告诉我你的看法。”</p>
+                <p class="pinyin"><b>Láoshī yòngyǔ (shìfàn):</b> “Bǐrú, nǐ kěyǐ shuō: ‘Wǒ xǐhuān kuài jiézòu, yīnwèi wǒ
+                    xǐhuān hěn kuài de fāzhǎn sùdù. Suīrán hěn máng, méiyǒu tài duō xiūxián shēnghuó, dàn wǒ juédé hěn
+                    chōngshí.’ Huòzhě ‘Wǒ xǐhuān màn jiézòu, yīnwèi wǒ gèng zhòngshì shēnghuó zhìliàng, wǒ xǐhuān màn
+                    man de xiǎngshòu shēnghuó.’ Qǐng nǐ zhǔnbèi yīxià, ránhòu gàosù wǒ nǐ de kànfǎ.”</p>
+                <p class="vietnamese"><b>Lời giáo viên (Làm mẫu):</b> "Ví dụ, bạn có thể nói: 'Tôi thích nhịp độ nhanh,
+                    vì tôi thích tốc độ phát triển nhanh. Mặc dù rất bận rộn, không có nhiều cuộc sống giải trí, nhưng
+                    tôi cảm thấy rất trọn vẹn.' Hoặc 'Tôi thích nhịp độ chậm, vì tôi coi trọng chất lượng cuộc sống hơn,
+                    tôi thích từ từ tận hưởng cuộc sống.' Mời bạn chuẩn bị một chút, sau đó cho tôi biết quan điểm của
+                    bạn."</p>
+            </div>
+        </section>
+        <section id="page16">
+            <h2>对应PPT第 16 页</h2>
+            <h3>环节名称 (Tên phần): 表达活动 2 (Hoạt động diễn đạt 2)</h3>
+            <h4>1. 教学目标 (Mục tiêu giảng dạy)</h4>
+            <div class="lang-block">
+                <p class="chinese">学生能结合自己的观察和本课所学，就“中国人的生活和工作节奏”这一具体话题，发表个人看法。</p>
+                <p class="pinyin">Xuéshēng néng jiéhé zìjǐ de guānchá hé běn kè suǒ xué, jiù “zhōngguó rén de shēnghuó
+                    hé gōngzuò jiézòu” zhè yī jùtǐ huàtí, fābiǎo gèrén kànfǎ.</p>
+                <p class="vietnamese">Học sinh có thể kết hợp quan sát của bản thân và kiến thức đã học trong bài để
+                    phát biểu quan điểm cá nhân về chủ đề cụ thể "nhịp sống và làm việc của người Trung Quốc".</p>
+            </div>
+            <h4>2. 核心内容对照 (Đối chiếu nội dung cốt lõi)</h4>
+            <div class="lang-block">
+                <p class="chinese">结合你了解到的实际情况，谈谈你对中国人生活和工作节奏的看法。</p>
+                <p class="pinyin">Jiéhé nǐ liǎojiě dào de shíjì qíngkuàng, tán tán nǐ duì zhōngguó rén shēnghuó hé
+                    gōngzuò jiézòu de kànfǎ.</p>
+                <p class="vietnamese">Kết hợp với tình hình thực tế mà bạn biết, hãy nói về quan điểm của bạn đối với
+                    nhịp sống và làm việc của người Trung Quốc.</p>
+            </div>
+            <h4>3. 教学步骤 (Các bước giảng dạy)</h4>
+            <div class="teacher-script">
+                <p class="chinese"><b>教师用语:</b>
+                    “我们这节课一开始就问了这个问题，现在学完了整课，你对这个问题有没有新的看法？请你结合你自己的了解，还有我们课文里读到的内容，再来谈一谈你对中国人生活和工作节奏的看法。是快还是慢？为什么？有没有变化？”
+                </p>
+                <p class="pinyin"><b>Láoshī yòngyǔ:</b> “Wǒmen zhè jié kè yī kāishǐ jiù wènle zhège wèntí, xiànzài xué
+                    wánle zhěng kè, nǐ duì zhège wèntí yǒu méiyǒu xīn de kànfǎ? Qǐng nǐ jiéhé nǐ zìjǐ de liǎojiě, hái
+                    yǒu wǒmen kèwén lǐ dú dào de nèiróng, zàilái tán yī tán nǐ duì zhōngguó rén shēnghuó hé gōngzuò
+                    jiézòu de kànfǎ. Shì kuài háishì màn? Wèishéme? Yǒu méiyǒu biànhuà?”</p>
+                <p class="vietnamese"><b>Lời giáo viên:</b> "Ngay từ đầu tiết học chúng ta đã hỏi câu này, bây giờ sau
+                    khi đã học xong cả bài, bạn có quan điểm mới nào về vấn đề này không? Mời bạn kết hợp sự hiểu biết
+                    của bản thân, cùng với nội dung chúng ta đã đọc trong bài, để nói lại một lần nữa về quan điểm của
+                    bạn đối với nhịp sống và làm việc của người Trung Quốc. Là nhanh hay chậm? Tại sao? Có sự thay đổi
+                    nào không?"</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
